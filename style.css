@@ -1,0 +1,221 @@
+
+#navbar ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    }
+
+    #navbar li {
+        display: inline-block;
+     margin-top: 20px;  
+              }
+header{
+    display: flex;
+
+}
+#nav-bar a{
+    text-decoration: none;
+    color:black}
+    .one{
+        display: flex;
+        background-color: green;
+        color: white;
+        padding-left: 60px;
+        height: 70px;
+        font-size: larger;
+        
+    }
+    .two{
+        display: flex;
+        margin-left: 50%;
+        gap:80px;
+    }
+   
+  
+.summer{
+    width: 600px;
+    height: 500px;
+    }
+    .words{
+    background-color: antiquewhite;
+    height: 50%;
+    }
+    .plants{
+        display: flex;
+        background-color:rgb(229,229,229);
+        width: 500px;
+        height: 200px;
+    }
+    .sec{
+        display: flex;
+        background-color:rgb(229,229,229);
+        width: 500px;
+        height: 200px;
+    }
+    .first{
+    }
+    .all{
+    display: flex;
+    gap: 60px;
+    }
+    .go{
+        display: flexbox;
+    }
+    .ko{
+        display: flex;
+    }
+    .ho{
+        display: flex;
+    }
+    .jj{
+        display: flex;
+    }
+    .sale{
+        display: flex;
+        background-color: rgb(244,242,243);
+    }
+    .house{
+        display: flex;
+        background-color: rgb(244,242,243);
+    }
+    .pot{
+        display: flex;
+        background-color: white;
+    }
+    .all2{
+        display: flex;
+        gap: 50px;
+    }
+    .word{
+        display: flex;
+        gap: 400px;
+        
+    
+    }
+
+.pink{
+    display: flex;
+}
+.pink2{
+    display: flex;
+}
+.popcorn{
+    display: flex;
+}
+.butt{
+margin-left: 34%;
+width: 250px;
+background-color: green;
+color: white;
+height: 50px;
+border-radius: 15px;
+}
+.yello{
+
+    width: 170px;
+    height: 40px; ;
+
+    color:black;
+    background-color:wheat;
+
+}
+.yell{
+
+    width: 170px;
+    height: 40px; ;
+
+    color:white;
+    background-color:rgb(92, 226, 92);
+}
+.footer{
+    display: flex;
+    gap: 200px;
+    font-size: x-large;
+}
+.tec{
+    text-align: center;
+    font-size: larger;
+}
+.color{
+    display: flex;
+    gap: 300px;
+}
+.w{
+    text-align: center;
+}
+.y{
+    text-align: center;
+    font-size: medium;
+}
+.kam{
+    text-align: center;
+}
+.bottle{
+    display: flex;
+    gap: 80px;
+    font-size: x-large;
+}
+.spring{
+    margin-top: 0%;
+}
+.butt2{
+    margin-left: 10;
+width: 200px;
+background-color: green;
+color: white;
+height: 50px;
+border-radius: 15px;
+}
+   .shop{
+    background-image: url(photo/flower2)b;
+
+height: 270px;
+text-align: center;
+padding: 70px;
+}
+.press{
+    width: 120px;
+background-color: green;
+color: white;
+height: 50px;
+border-radius: 15px;
+}
+
+
+
+.glass{
+    display: flex;
+}
+.glass2{
+    display: flex;
+}
+.glass3{
+    display: flex;
+}
+.flex{
+    display: flex;
+    gap: 50px;
+    padding: 100px;
+}
+.vasee{
+    display: flex;
+}
+form{
+    padding: 150px;
+}
+@media screen and (min-width:280px) and (max-width:330px){
+    body{
+        .footer{
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size:small;
+        }
+
+    }
+}
+
+  
+        
+ 
+   
+  

@@ -12,6 +12,10 @@
 header{
     display: flex;
 
+
+}
+#navbar{
+    gap: 600px;
 }
 #nav-bar a{
     text-decoration: none;
@@ -20,7 +24,7 @@ header{
         display: flex;
         background-color: green;
         color: white;
-        padding-left: 60px;
+        padding-left: 56px;
         height: 70px;
         font-size: larger;
         
@@ -127,10 +131,12 @@ border-radius: 15px;
     color:white;
     background-color:rgb(92, 226, 92);
 }
+
 .footer{
-    display: flex;
-    gap: 200px;
-    font-size: x-large;
+        display: flex;
+        gap: 200px;
+        font-size: x-large;
+    
 }
 .tec{
     text-align: center;
@@ -138,7 +144,7 @@ border-radius: 15px;
 }
 .color{
     display: flex;
-    gap: 300px;
+    gap: 200px;
 }
 .w{
     text-align: center;
@@ -160,21 +166,22 @@ border-radius: 15px;
 }
 .butt2{
     margin-left: 10;
-width: 200px;
+width: 300px;
 background-color: green;
 color: white;
 height: 50px;
 border-radius: 15px;
 }
    .shop{
-    background-image: url(photo/flower2)b;
+    background-image: url(photo/b2);
+    background-color: gray;
 
 height: 270px;
 text-align: center;
 padding: 70px;
 }
 .press{
-    width: 120px;
+    width: 320px;
 background-color: green;
 color: white;
 height: 50px;
@@ -202,20 +209,250 @@ border-radius: 15px;
 }
 form{
     padding: 150px;
+    font-size: small;
 }
 @media screen and (min-width:280px) and (max-width:330px){
-    body{
-        .footer{
-            flex-wrap: wrap;
-            gap: 20px;
-            font-size:small;
+    #navbar ul{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 50px;
         }
-
+    
+        #navbar li {
+            display: inline-block;
+         margin-top: 20px;  
+                  }
+    header{
+        flex-wrap: wrap;
+    
+    
     }
+    #navbar{
+        gap: 5px;
+    }
+    #nav-bar a{
+        text-decoration: none;
+        color:black}
+        .one{
+            flex-wrap: wrap;
+            background-color: green;
+            color: white;
+            
+            height: 70px;
+            font-size: small;
+            
+        }
+        .two{
+            flex-wrap: wrap;
+            margin-left: 10%;
+            gap:10px;
+        }
+       
+      
+    .summer{
+        width: 600px;
+        height: 500px;
+        }
+        .words{
+        background-color: antiquewhite;
+        height: 50%;
+        }
+        .plants{
+            flex-wrap: wrap;
+            background-color:rgb(229,229,229);
+            width: 200px;
+            height: 50px;
+        }
+        .sec{
+            flex-wrap: wrap;
+            background-color:rgb(229,229,229);
+            width: 200px;
+            height: 50px;
+        }
+        .first{
+        }
+        .all{
+        flex-wrap: wrap;
+        gap: 60px;
+        }
+        .go{
+            display: flexbox;
+        }
+        .ko{
+            flex-wrap: wrap;
+        }
+        .ho{
+            flex-wrap: wrap;
+        }
+        .jj{
+            flex-wrap: wrap;
+        }
+        .sale{
+            flex-wrap: wrap;
+            background-color: rgb(244,242,243);
+        }
+        .house{
+            flex-wrap: wrap;
+            background-color: rgb(244,242,243);
+        }
+        .pot{
+            flex-wrap: wrap;
+            background-color: white;
+        }
+        .all2{
+            flex-wrap: wrap;
+            gap: 50px;
+        }
+        .word{
+            flex-wrap: wrap;
+            gap: 400px;
+            
+        
+        }
+    
+    .pink{
+        flex-wrap: wrap;
+    }
+    .pink2{
+        flex-wrap: wrap;
+    }
+    .popcorn{
+        flex-wrap: wrap;
+    }
+    .butt{
+    margin-left: 34%;
+    width: 100px;
+    background-color: green;
+    color: white;
+    height: 30px;
+    border-radius: 15px;
+    }
+    .yello{
+    
+        width: 170px;
+        height: 40px; ;
+    
+        color:black;
+        background-color:wheat;
+    
+    }
+    .yell{
+    
+        width: 170px;
+        height: 40px; ;
+    
+        color:white;
+        background-color:rgb(92, 226, 92);
+    }
+    .footer{
+        .footer{
+            display: flex;
+            gap: 200px;
+            font-size: x-large;
+        
+    }
+    .tec{
+        text-align: center;
+        font-size: small;
+    }
+    .color{
+        flex-wrap: wrap;
+        gap: 200px;
+    }
+    .w{
+        text-align: center;
+    }
+    .y{
+        text-align: center;
+        font-size: small;
+    }
+    .kam{
+        text-align: center;
+    }
+    .bottle{
+        flex-wrap: wrap;
+        gap: 80px;
+        font-size: small;
+    }
+    .spring{
+        margin-top: 0%;
+    }
+    .butt2{
+        margin-left: 10;
+    width: 100px;
+    background-color: green;
+    color: white;
+    height: 30px;
+    border-radius: 15px;
+    }
+       .shop{
+        background-image: url(photo/b2);
+        background-color: gray;
+    
+    height: 270px;
+    text-align: center;
+    padding: 70px;
+    }
+    .press{
+        width: 100px;
+    background-color: green;
+    color: white;
+    height: 30px;
+    border-radius: 15px;
+    }
+    
+    
+    
+    .glass{
+        flex-wrap: wrap;
+    }
+    .glass2{
+        flex-wrap: wrap;
+    }
+    .glass3{
+        flex-wrap: wrap;
+    }
+    .flex{
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 100px;
+    }
+    .vasee{
+        flex-wrap: wrap;
+    }
+    form{
+        padding: 150px;
+        font-size: small;
+        overflow: hidden;
+    
 }
+#flow{
+    width: 80px;
+    height: 20px;
+}
+#flash{
+    width: 80px;
+}
+#fig{
+    width: 200px;
+}
+#fash{
+    width: 180px;
+}
+#n{
+    width: 250px;
+
+}
+#nn{
+    width: 250px;
+}
+
+}
+    
+      
+
 
   
         
  
    
-  

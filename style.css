@@ -344,107 +344,107 @@ form{
         color:white;
         background-color:rgb(92, 226, 92);
     }
+
     .footer{
-        .footer{
-            display: flex;
-            gap: 200px;
-            font-size: x-large;
-        
-    }
-    .tec{
-        text-align: center;
-        font-size: small;
-    }
-    .color{
         flex-wrap: wrap;
         gap: 200px;
-    }
-    .w{
-        text-align: center;
-    }
-    .y{
-        text-align: center;
         font-size: small;
-    }
-    .kam{
-        text-align: center;
-    }
-    .bottle{
-        flex-wrap: wrap;
-        gap: 80px;
-        font-size: small;
-    }
-    .spring{
-        margin-top: 0%;
-    }
-    .butt2{
-        margin-left: 10;
-    width: 100px;
-    background-color: green;
-    color: white;
-    height: 30px;
-    border-radius: 15px;
-    }
-       .shop{
-        background-image: url(photo/b2);
-        background-color: gray;
     
-    height: 270px;
+}
+.tec{
     text-align: center;
-    padding: 70px;
-    }
-    .press{
-        width: 100px;
-    background-color: green;
-    color: white;
-    height: 30px;
-    border-radius: 15px;
-    }
+    font-size: small;
+}
+.color{
+    flex-wrap: wrap;
+    gap: 200px;
+}
+.w{
+    text-align: center;
+}
+.y{
+    text-align: center;
+    font-size: small;
+}
+.kam{
+    text-align: center;
+}
+.bottle{
+    flex-wrap: wrap;
+    gap: 80px;
+    font-size: small;
+}
+.spring{
+    margin-top: 0%;
+}
+.butt2{
+    margin-left: 10;
+width: 100px;
+background-color: green;
+color: white;
+height: 30px;
+border-radius: 15px;
+}
+   .shop{
+    background-image: url(photo/b2);
+    background-color: gray;
+
+height: 270px;
+text-align: center;
+padding: 70px;
+}
+.press{
+    width: 100px;
+background-color: green;
+color: white;
+height: 30px;
+border-radius: 15px;
+}
+
+
+
+.glass{
+    flex-wrap: wrap;
+}
+.glass2{
+    flex-wrap: wrap;
+}
+.glass3{
+    flex-wrap: wrap;
+}
+.flex{
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 100px;
+}
+.vasee{
+    flex-wrap: wrap;
+}
+form{
+    padding: 150px;
+    font-size: small;
     
-    
-    
-    .glass{
-        flex-wrap: wrap;
-    }
-    .glass2{
-        flex-wrap: wrap;
-    }
-    .glass3{
-        flex-wrap: wrap;
-    }
-    .flex{
-        flex-wrap: wrap;
-        gap: 50px;
-        padding: 100px;
-    }
-    .vasee{
-        flex-wrap: wrap;
-    }
-    form{
-        padding: 150px;
-        font-size: small;
-        overflow: hidden;
-    
+
 }
 #flow{
-    width: 80px;
-    height: 20px;
+width: 80px;
+height: 20px;
 }
 #flash{
-    width: 80px;
+width: 80px;
 }
 #fig{
-    width: 200px;
+width: 200px;
 }
 #fash{
-    width: 180px;
+width: 180px;
 }
 #n{
-    width: 250px;
+width: 250px;
 
 }
 #nn{
-    width: 250px;
+width: 250px;
 }
 
 }
